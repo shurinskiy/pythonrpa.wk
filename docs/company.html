@@ -1,0 +1,99 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+	<link rel="shortcut icon" href="images/favicon.ico"> 
+	<link rel="stylesheet" href="style.css"> 
+	<title></title> 
+</head> 
+<body class="home"> 
+ 
+<header class="header"> 
+	<div class="header__inner container">
+		<a href="./" class="header__logo"><img src="./images/logo.png" alt=""></a>
+		<div class="header__side">
+			<button class="header__mobile-close"></button>
+			<div class="header__menu menu menu_header"> 
+				<a class="menu__item" href="./company.html">Company</a>
+				<a class="menu__item" href="./products.html">Products</a>
+				<a class="menu__item" href="./contacts.html">Contact us</a>
+				<a class="menu__item" href="./blog.html">Blog</a>
+				<a class="menu__item" href="./cases.html">Use Cases</a>
+			</div>
+			<div class="header__login">
+				<a href="./">Log in</a>/<a href="./">Sign in</a>
+			</div>
+		</div>
+		<button class="header__mobile-open"></button>
+	</div>
+</header>
+ 
+
+<section class="roof roof_company">
+	<h1 class="roof__title">Company</h1>
+	<p class="roof__text">Everything you need to know about us</p>
+	<button class="roof__callback-btn" data-modal="callback">Callback</button>
+</section>
+
+<section class="page-company">
+	<div class="page-company__text">
+		<p>In corporates and mid-sized ventures up to 50% of back-office processes have routine nature which led to high staff turnover,  mechanical errors, low client requests processing speed.</p>
+		<p>In our company we strongly believe that any company should free their employees from routine tasks.</p>
+		<p>With Python RPA - our end-to-end business automation platform our clients get access to scalable, secure and easy to use Robotic Process Automation technology for the fraction of price.</p>
+	</div>
+	<div class="page-company__image">
+		<img src="./images/image-page-company.png" alt="">
+	</div>
+</section>
+
+<div class="modal__hidden">
+	<div id="callback">
+		<form class="callback" action="./">
+			<h3 class="callback__title">Оставтьте заявку на консультацию</h3>
+			<div class="callback__alert">
+				<!-- <h2>Спасибо!<br>Заявка отправлена</h2><span>Наш специалист перезвонит вам в ближайшее время, чтобы ответить на вопросы</span> -->
+			</div>
+			<input class="callback__input" type="text" name="callback_name" placeholder="Ваше имя" autocomplete="off">
+			<input class="callback__input" type="tel" name="callback_phone" placeholder="Ваше телефон" autocomplete="off">
+			<input class="callback__input" type="text" name="callback_address">
+			<div class="callback__agree">
+				<input type="checkbox" name="callback_agree" checked>
+				<p>Я согласен с уcловиями обработки <a href="./">персональных данных</a></p>
+			</div>
+			<input class="callback__submit" type="submit" value="Отправить">
+		</form>
+	</div>
+</div> 
+<footer class="footer"> 
+	<div class="footer__inner container">
+		<a href="./" class="footer__logo"><img src="./images/logo.png" alt=""></a>
+		<div class="footer__block menu menu_footer">
+			<a class="menu__item" href="./company.html">Company</a>
+			<a class="menu__item" href="./products.html">Products</a>
+			<a class="menu__item" href="./contacts.html">Contact us</a>
+			<a class="menu__item" href="./blog.html">Blog</a>
+			<a class="menu__item" href="./cases.html">Use Cases</a>
+		</div>
+		<div class="footer__block">
+			<a class="footer__block-link" href="tel:+77013338383">+7 701 333 8383</a>
+			<a class="footer__block-link" href="tel:+77771455157">+7 777 145 5157</a>
+			<p class="footer__block-text">пр-т Назарбаева 50 Алматы, Казахстан</p>
+		</div>
+		<div class="footer__block">
+			<div class="footer__block-login">
+				<a href="./">Log in</a>/<a href="./">Sign in</a>
+			</div>
+			<a class="footer__block-link" href="mailto:ceo@seikolabs.kz">ceo@seikolabs.kz</a>
+			<div class="footer__socials">
+				<a href="./" class="footer__social footer__social_wapp"></a>
+				<a href="./" class="footer__social footer__social_inst"></a>
+				<a href="./" class="footer__social footer__social_fb"></a>
+			</div>
+		</div>
+	</div>
+</footer> 
+<script type="text/javascript" charset="utf-8" src="jquery.min.js"></script>
+<script src="common.js"></script> 
+</body> 
+</html> 
